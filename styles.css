@@ -1,3 +1,110 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #7e7474;
+}
+
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', serif;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  padding-left: 5%;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    display: inline;
+    text-align: right;
+    padding: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#name {
+    font-family: 'Prompt', sans-serif;
+    margin: 20px;
+    text-align: center;
+    color: #393e46;
+}
+
+a {
+  text-decoration: none;
+  color: #7e7474;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #39311d;
+}
+
+.intro {
+  padding: 150px 150px;
+  background-color: #433d3c;
+  color: #f4f4f2;
+  padding-left: 5%;
+  margin-top: 65px;
+  background-size: cover;
+  text-align: left;
+  text-shadow: 2px 2px #8f384d;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  margin: 30px;
+  clear:both;
+}
+
+.front {
+  text-align: right;
+  margin-right: 20%;
+}
+
+.back {
+    text-align: left;
+    margin-left: 20%;
+}
+
+footer {
+  background-color: #0a043c;
+}
+
+.copyright {
+  color: white;
+}
+
+nav {
+  margin-right: 7%;
 }
