@@ -3,6 +3,7 @@ body {
     margin: 0;
     text-align: center;
     color: #7e7474;
+    background-image: url(C:\Users\sloth\Development\PortfolioSite\images\back.jpg);
 }
 
 h1 {
@@ -15,9 +16,15 @@ h2 {
   font-weight: normal;
 }
 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  padding-left: 5%;
+}
+
 h4 {
   font-family: 'Raleway', sans-serif;
   padding-left: 5%;
+  font-size: 1.75em;
 }
 
 h5 {
@@ -51,6 +58,10 @@ li {
     color: #393e46;
 }
 
+#me {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: #7e7474;
@@ -70,6 +81,12 @@ a:hover {
   background-size: cover;
   text-align: left;
   text-shadow: 2px 2px #8f384d;
+  display: none;
+}
+
+.icons {
+  display: inline-block;
+  opacity: 0.7;
 }
 
 .flex {
