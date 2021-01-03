@@ -3,11 +3,9 @@ body {
     margin: 0;
     text-align: center;
     color: #7e7474;
-    background-image: url(C:\Users\sloth\Development\PortfolioSite\images\back.jpg);
 }
 
 h1 {
-  font-family: 'Raleway', serif;
   font-size: 2.5em;
 }
 
@@ -17,12 +15,12 @@ h2 {
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
   padding-left: 5%;
+  font-weight: normal;
+  display: inline-flex;
 }
 
 h4 {
-  font-family: 'Raleway', sans-serif;
   padding-left: 5%;
   font-size: 1.75em;
 }
@@ -31,35 +29,31 @@ h5 {
   font-size: 1.5em;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
 ul {
+  display: inline-flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 li {
-    display: inline;
-    text-align: right;
+    display: inline-flex;
+    align-content: flex-end;
     padding: 10px;
-    font-family: 'Prompt', sans-serif;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-}
-
-#name {
-    font-family: 'Prompt', sans-serif;
-    margin: 20px;
-    text-align: center;
-    color: #393e46;
+#git {
+  width: 25px;
 }
 
 #me {
-  display: none;
+  display: inline;
 }
 
 a {
@@ -73,8 +67,9 @@ a:hover {
 }
 
 .intro {
+  background: url(images/banner.png) brown;
+  height: 250px;
   padding: 150px 150px;
-  background-color: #433d3c;
   color: #f4f4f2;
   padding-left: 5%;
   margin-top: 65px;
@@ -89,19 +84,13 @@ a:hover {
   opacity: 0.7;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
 hr {
   border-style: none;
   border-top-style: solid;
   border-width: 1px;
   border-color: lightgrey;
   margin: 30px;
-  clear:both;
+  clear: both;
 }
 
 .front {
